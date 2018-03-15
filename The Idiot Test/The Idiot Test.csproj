@@ -75,16 +75,16 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmQuiz.cs">
+    <Compile Include="Forms\frmQuiz.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmQuiz.Designer.cs">
+    <Compile Include="Forms\frmQuiz.Designer.cs">
       <DependentUpon>frmQuiz.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmQuizMaker.cs">
+    <Compile Include="Forms\frmQuizMaker.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmQuizMaker.Designer.cs">
+    <Compile Include="Forms\frmQuizMaker.Designer.cs">
       <DependentUpon>frmQuizMaker.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -103,10 +103,10 @@
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmQuiz.resx">
+    <EmbeddedResource Include="Forms\frmQuiz.resx">
       <DependentUpon>frmQuiz.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmQuizMaker.resx">
+    <EmbeddedResource Include="Forms\frmQuizMaker.resx">
       <DependentUpon>frmQuizMaker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
